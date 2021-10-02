@@ -31,7 +31,7 @@ export const useMovieFetch = movieId => {
       } catch (error) {
         setError(true);
       }
-    },
+    };
 
     const sessionState = isPersistedState(movieId);
 
